@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="info.html">Info</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="checkout.html">Checkout</a></li>
+      </ul>
+    </header>
+    <img
+      class="site-logo"
+      src="images/Site_Logo.png"
+      alt="Multiverse Games Logo Image"
+    />
+    <h2>Checkout</h2>
+    <!-- Basket Area -->
+    <div class="basket">
+      <h3>Your Basket</h3>
+
+      <!-- Item 1 -->
+      <select class="item">
+        <option value="0">Select Item</option>
+        <option value="210">PlayStation 4 (£210)</option>
+        <option value="190">Xbox One (£190)</option>
+        <option value="230">Nintendo Switch (£230)</option>
+        <option value="160">Switch Lite (£160)</option>
+        <option value="110">Wii U (£110)</option>
+        <option value="100">Nintendo 3DS XL (£100)</option>
+      </select>
+
+      <select class="qty">
+        <option value="0">Qty</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+
+      <br /><br />
+
+      <!-- Item 2 -->
+      <select class="item">
+        <option value="0">Select Item</option>
+        <option value="210">PlayStation 4 (£210)</option>
+        <option value="190">Xbox One (£190)</option>
+        <option value="230">Nintendo Switch (£230)</option>
+        <option value="160">Switch Lite (£160)</option>
+        <option value="110">Wii U (£110)</option>
+        <option value="100">Nintendo 3DS XL (£100)</option>
+      </select>
+
+      <select class="qty">
+        <option value="0">Qty</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+
+      <br /><br />
+
+      <!-- Item 3 -->
+      <select class="item">
+        <option value="0">Select Item</option>
+        <option value="210">PlayStation 4 (£210)</option>
+        <option value="190">Xbox One (£190)</option>
+        <option value="230">Nintendo Switch (£230)</option>
+        <option value="160">Switch Lite (£160)</option>
+        <option value="110">Wii U (£110)</option>
+        <option value="100">Nintendo 3DS XL (£100)</option>
+      </select>
+
+      <select class="qty">
+        <option value="0">Qty</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+
+      <br /><br />
+
+      <button onclick="calculateTotal()">Calculate Total</button>
+
+      <p id="total">Total: £0</p>
+    </div>
+  </body>
+</html>
